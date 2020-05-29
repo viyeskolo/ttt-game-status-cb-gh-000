@@ -27,7 +27,7 @@ def won?(board)
     return false
   else
     WIN_COMBINATIONS.each do |comb|
-      if include_array?(board, comb)
+      if include_array? (board, comb)
         return comb
       end
     end
