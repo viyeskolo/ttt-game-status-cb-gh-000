@@ -58,5 +58,3 @@ def draw?(board)
 end
 
 draw?(board)
-
-
